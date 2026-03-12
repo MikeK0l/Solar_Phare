@@ -4,8 +4,8 @@
 
 const int LED = 5;    // Définition LED
 const int Moteur = 4;    // Définition moteur 
-const char * SSID = "Livebox-B850";
-const char * PASSWORD = "cqaPgunXkw7QbJLrWS";
+const char * SSID = "Livebox";
+const char * PASSWORD = "1234";
 bool Mode; // Mode = False : Local / True : Distant 
 bool On_Manu;
 bool Off_Manu;
@@ -184,4 +184,5 @@ void loop() {
     {
     serverWeb.handleClient();
     }  
+
 }
